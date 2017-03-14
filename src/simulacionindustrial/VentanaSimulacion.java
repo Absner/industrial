@@ -12,10 +12,7 @@ import java.util.logging.Logger;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 
-/**
- *
- * @author Raelyx-Yxzandra
- */
+
 public class VentanaSimulacion extends javax.swing.JFrame {
     
      int elementoA, elementoB, peso = 0;

@@ -5,10 +5,7 @@
  */
 package simulacionindustrial;
 
-/**
- *
- * @author Raelyx-Yxzandra
- */
+
 public class SimulationMain {
 
     /**
