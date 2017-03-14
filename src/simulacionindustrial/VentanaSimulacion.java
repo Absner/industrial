@@ -54,6 +54,7 @@ public class VentanaSimulacion extends javax.swing.JFrame {
         nombre3 = new javax.swing.JLabel();
         valvulas = new javax.swing.JLabel();
         startSimulation = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -72,7 +73,7 @@ public class VentanaSimulacion extends javax.swing.JFrame {
         getContentPane().add(labelSensorPesoArena, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 50, 50, 50));
 
         motor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/mezcladora.png"))); // NOI18N
-        getContentPane().add(motor, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 400, 190, 230));
+        getContentPane().add(motor, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 400, 190, 270));
 
         labelVascula.setFont(new java.awt.Font("Cantarell", 1, 18)); // NOI18N
         labelVascula.setForeground(java.awt.Color.white);
@@ -104,6 +105,9 @@ public class VentanaSimulacion extends javax.swing.JFrame {
             }
         });
         getContentPane().add(startSimulation, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 480, -1, -1));
+
+        jPanel1.setBackground(java.awt.Color.white);
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 820, 670));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -318,6 +322,7 @@ public class VentanaSimulacion extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel cementLabel;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel labelMezclaLista;
     private javax.swing.JLabel labelSensorPesoArena;
     private javax.swing.JLabel labelSensorPesoCemento;
